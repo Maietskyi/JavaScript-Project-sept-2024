@@ -35,9 +35,9 @@ data input validation, and a responsive design for different devices.
 
 ## Technologies used:
 
-    * HTML5: Interface structure.
-    * CSS: page styling (adding colors, setting sizes, and adapting to different devices)
-    * JavaScript: Program logic (adding, sorting, deleting, validation).
+    - **HTML5:** Interface structure.
+    - **CSS:** page styling (adding colors, setting sizes, and adapting to different devices)
+    - **JavaScript:** Program logic (adding, sorting, deleting, validation).
 
 ## Usage:
 
@@ -48,7 +48,6 @@ data input validation, and a responsive design for different devices.
    - Open the index.html file in any modern web browser.
 
 #### User Guide:
-
     - Enter the pair "Name=Value" in the text box in the format name=value.
     - Click the Add button to add the pair to the list.
     - Use the buttons:
