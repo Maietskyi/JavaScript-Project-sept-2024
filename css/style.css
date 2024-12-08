@@ -64,10 +64,6 @@ p {
 .textString{
     color: black;
 }
-p::selection{
-    color: red;
-    background-color: red;
-}
 
 .button-container {
     display: flex;
