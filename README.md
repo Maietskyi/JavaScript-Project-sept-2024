@@ -64,6 +64,9 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
         - user-name 34 = Misha 19 
         - user-name*34:Misha/19 
 
+## Functionality expansion:
+Potentially entered pairs can be saved and/or sent to the database 
+
 ## Author
 ### Maietskyi Mykhailo
 https://github.com/Maietskyi | damaietskyi@gmail.com
