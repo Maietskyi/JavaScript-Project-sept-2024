@@ -32,6 +32,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
     - style-mobile.css
 - js:
     - main.js
+- README.md
 
 ## Technologies used
 
@@ -62,5 +63,9 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
     - ❌ Incorrect: 
         - user-name 34 = Misha 19 
         - user-name*34:Misha/19 
+
+## Author
+###Maietskyi Mykhailo
+https://github.com/Maietskyi | damaietskyi@gmail.com
 
 
