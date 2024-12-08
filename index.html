@@ -6,7 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Project</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-desktop.css">
+    <link rel="stylesheet" href="css/style-tablet.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
 </head>
 <body>
 <div class="background-container">
@@ -14,10 +16,12 @@
         <h3>Test</h3>
         <p>Name/Value Pair</p>
         <div class="input-pair-container" id="inputPairContainer">
+            <div>
                 <input type="text" id="inputPair" name="inputPair" placeholder="Name=Value">
+                <p class="text-error" id="textError"></p>
+            </div>
                 <button id="addButton">Add</button>
         </div>
-        <p class="text-error" id="textError"></p>
         <p>Name/Value Pair List</p>
         <div class="input-list-container">
             <div class="input-list" id="inputList"></div>

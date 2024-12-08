@@ -1,0 +1,40 @@
+@media screen and (max-width: 481px){
+
+    .test-container{
+        width: 80vw;
+        height: 750px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    #inputPair{
+        width: 79vw;
+    }
+
+    .input-pair-container,
+    .input-list-container{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .input-list{
+        width: 80vw;
+    }
+
+    #sortByNameButton,
+    #sortByValueButton,
+    #deleteButton,
+    #addButton{
+        width: 80vw;
+        height: 30px;
+    }
+
+    #deleteButton{
+        background-color: rgba(255, 0, 0, 0.74);
+    }
+
+    #addButton{
+        background-color: rgba(0, 193, 0, 0.76);
+    }
+}
+

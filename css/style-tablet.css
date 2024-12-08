@@ -1,0 +1,29 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .test-container {
+        width: 90vw;
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .input-pair-container {
+        gap: 20px;
+    }
+
+    #inputPair {
+        width: 64.5vw;
+    }
+
+    .input-list-container {
+        gap: 20px;
+    }
+
+    .input-list {
+        width: 65vw;
+    }
+
+    .textString {
+        color: black;
+        font-size: 16px;
+    }
+}
