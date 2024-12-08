@@ -49,7 +49,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
 
 #### User Guide:
 - Enter the pair "Name=Value" in the text box in the format name=value.
-- Click the Add button to add the pair to the list.
+- Click the `Add` button to add the pair to the list.
 - Use the buttons:
     * `Sort by Name` to sort by name.
     * `Sort by Value` to sort by value.
