@@ -35,9 +35,9 @@ data input validation, and a responsive design for different devices.
 
 ## Technologies used
 
-    - **HTML5:** Interface structure.
-    - **CSS:** page styling (adding colors, setting sizes, and adapting to different devices)
-    - **JavaScript:** Program logic (adding, sorting, deleting, validation).
+- **HTML5:** Interface structure.
+- **CSS:** page styling (adding colors, setting sizes, and adapting to different devices)
+- **JavaScript:** Program logic (adding, sorting, deleting, validation).
 
 ## Usage:
 
