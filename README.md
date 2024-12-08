@@ -45,7 +45,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
    - Download the project from the repository:
    https://github.com/Maietskyi/JavaScript-Project-sept-2024.git
 2. Launch
-   - Open the **`index.html`** file in any modern web browser.
+   - Open the **`index.html`** file in any web browser.
 
 #### User Guide:
 - Enter the pair "Name=Value" in the text box in the format name=value.
