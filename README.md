@@ -51,9 +51,9 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
 - Enter the pair "Name=Value" in the text box in the format name=value.
 - Click the Add button to add the pair to the list.
 - Use the buttons:
-    * 'Sort by Name' to sort by name.
-    * 'Sort by Value' to sort by value.
-    * 'Delete' to remove the selected items from the list.
+    * `Sort by Name` to sort by name.
+    * `Sort by Value` to sort by value.
+    * `Delete` to remove the selected items from the list.
 
 #### Example of a pair:
     - ✅ Correct: 
