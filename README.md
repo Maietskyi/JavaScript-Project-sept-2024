@@ -27,9 +27,9 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
 ## Project composition
 - index.html  - the file to run the program
 - css:
-    - style-desktop.css
-    - style-table.css
-    - style-mobile.css
+    - style-desktop.css  - main project styling file
+    - style-table.css  - tablet style adaptation file
+    - style-mobile.css  - phone style adaptation file
 - js:
     - main.js  
 - README.md  - project description
