@@ -7,9 +7,9 @@ data input validation, and a responsive design for different devices.
 ## Program functionality:
 
 #### 1.Adding Name-Value pairs
--* Format: <name> = <value>.
--* <name> and <value> contain only alphanumeric characters.
--* Spaces before and after "=" are removed.
+    - Format: <name> = <value>.
+    - <name> and <value> contain only alphanumeric characters.
+    - Spaces before and after "=" are removed.
 
 #### 2.Validation of entered data
 If the format is incorrect, the pair is not added and an error is displayed.
