@@ -23,7 +23,7 @@ addButton.addEventListener("click", function () {
     }
 
     // Оголошую змінну масив, в який записую значення пари Name=Value з input, створюю новий масив, значення якого
-    // розділяю по знаку "=", і вирізаю знак '='. Перше це stringName а друге це stringValue
+    // розділяю по знаку "=", і вирізаю знак '='. Перше це stringName, а друге це stringValue
     const [stringName, stringValue] = inputValueTrim.split("=").map(str => str.trim());
 
     // Роблю перевірку, якщо немає значення "Name", або значення "Value", або в input нічого не записано, або немає

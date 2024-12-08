@@ -44,6 +44,7 @@ p {
     width: 396px;
     border: 1px solid silver;
     font-size: 16px;
+    padding: 4px;
 }
 
 .text-error{
