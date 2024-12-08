@@ -31,7 +31,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
     - style-table.css  - tablet style adaptation file
     - style-mobile.css  - phone style adaptation file
 - js:
-    - main.js  
+    - main.js  - application functionality support file
 - README.md  - project description
 
 ## Technologies used
