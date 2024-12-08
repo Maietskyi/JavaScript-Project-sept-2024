@@ -24,7 +24,7 @@ data input validation, and a responsive design for different devices.
 #### 5.Adaptive design
     - The interface automatically adapts to different screen sizes (mobile devices, tablets, and desktops)
 
-## Project composition:
+**Project composition**
     - index.html
     - css:
         - style-desktop.css
