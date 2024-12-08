@@ -25,13 +25,13 @@ Option to remove selected items from the list.
 The interface automatically adapts to different screen sizes (mobile devices, tablets, and desktops)
 
 ## Project composition
-    - index.html
-    - css:
-        - style-desktop.css
-        - style-table.css
-        - style-mobile.css
-    - js:
-        - main.js
+- index.html
+- css:
+    - style-desktop.css
+    - style-table.css
+    - style-mobile.css
+- js:
+    - main.js
 
 ## Technologies used
 
