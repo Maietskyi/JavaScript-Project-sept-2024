@@ -65,7 +65,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
         - user-name*34:Misha/19 
 
 ## Author
-###Maietskyi Mykhailo
+### Maietskyi Mykhailo
 https://github.com/Maietskyi | damaietskyi@gmail.com
 
 
