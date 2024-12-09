@@ -22,10 +22,10 @@ If the format is incorrect, the pair is not added and an error is displayed.
 Option to remove selected items from the list.
 
 #### 5.Local storage of entered pairs
-Saving data in local storage for each client until they clear the cache or delete the selected items
+Saving data in local storage for each client until they clear the cache or delete the selected items.
 
 #### 6.Adaptive design
-The interface automatically adapts to different screen sizes (mobile devices, tablets, and desktops)
+The interface automatically adapts to different screen sizes (mobile devices, tablets, and desktops).
 
 ## Project composition
 - index.html  - the file to run the program
