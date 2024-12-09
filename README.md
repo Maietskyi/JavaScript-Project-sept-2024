@@ -52,7 +52,7 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
    - Open the **`index.html`** file in any web browser.
 
 #### User Guide:
-- Enter the pair "Name=Value" in the text box in the format name=value.
+- Enter the pair `Name=Value` in the text box in the format name=value.
 - Click the `Add` button to add the pair to the list.
 - Use the buttons:
     * `Sort by Name` to sort by name.
