@@ -68,7 +68,11 @@ The interface automatically adapts to different screen sizes (mobile devices, ta
         - user-name*34:Misha/19 
 
 ## Functionality expansion:
-Potentially entered pairs can be saved and/or sent to the database 
+- Potentially entered pairs can be saved and/or sent to the database 
+- Add functionality
+- Record the time of adding a pair
+- Assign ids to pairs
+- Deleting not all but some of the entered pairs
 
 ## Author
 ### Maietskyi Mykhailo
