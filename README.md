@@ -24,6 +24,9 @@ Option to remove selected items from the list.
 #### 5.Adaptive design
 The interface automatically adapts to different screen sizes (mobile devices, tablets, and desktops)
 
+#### 6.local storage of entered pairs
+Saving data in local storage for each client until they clear the cache or delete the selected items
+
 ## Project composition
 - index.html  - the file to run the program
 - css:
