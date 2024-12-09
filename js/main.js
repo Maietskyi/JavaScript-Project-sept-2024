@@ -1,6 +1,26 @@
 // Оголошую змінну, яка є масивом і буде приймати введені Name=Value
 let arrayNameValuePairs = [];
 
+// Створюю функцію яку буду викликати кожного разу як будуть відбуватись зміни в масиві, і буду записувати оновлення
+// в локальне сховище
+function recordTolocalStorage () {
+    localStorage.setItem('arrayNameValuePairs', JSON.stringify(arrayNameValuePairs))
+}
+
+// Створюю функцію яка буде виводити збереженений масив з localStorage, і виводити Pair "Name=Value" в блок з текстом
+// при завантаженні веб-сторінки (документу)
+onload = () => {
+    // Оголошую змінну і прив'язую до свого Local Storage
+    const dataFromToLocalStorage = localStorage.getItem("arrayNameValuePairs");
+    // Роблю перевірку якщо в Local Storage є записані дані - то витягую їх, і вказую що оголошений вище масив
+    // arrayNameValuePairs буде приймати (розпарсені) витягнуті значення з Local Storage
+    if (dataFromToLocalStorage) {
+        arrayNameValuePairs = JSON.parse(dataFromToLocalStorage);
+        // Викликаю функція, щоб витягнуті значення вивести в блок для тексту
+        outputText();
+    }
+}
+
 // Оголошую змінну і прив'язую до неї id кнопки запису add
 let addButton = document.getElementById('addButton')
 
@@ -53,6 +73,7 @@ addButton.addEventListener("click", function () {
     error();
     // А також викликаю функцію яка виводитиме текст в блок
     outputText();
+    // recordTolocalStorage();
 })
 
 // Створюю функцію яка виводить всі об'єкти з масиву в блок по такому зразку який наведений в тз, тобто "Name=Value"
@@ -68,6 +89,7 @@ function outputText() {
         textString.innerText = `${value.name}=${value.value}`;
         inputList.append(textString);
     }
+    recordTolocalStorage();
 }
 // Оголошую змінну яку зв'язую з id кнопки сортування за назвою
 let sortByNameButton = document.getElementById('sortByNameButton')
@@ -79,7 +101,8 @@ sortByNameButton.addEventListener("click", function () {
         if (a.name === b.name) {return 0;}
     })
     // Викликаю функцію виведення (перезаписування) тексту в блок з парами
-    outputText()
+    outputText();
+    // recordTolocalStorage();
 })
 // Оголошую змінну яку зв'язую з id кнопки сортування за значенням
 let sortByValueButton = document.getElementById('sortByValueButton')
@@ -91,18 +114,15 @@ sortByValueButton.addEventListener("click", function () {
         if (a.value === b.value) {return 0;}
     })
     // Викликаю функцію виведення (перезаписування) тексту в блок з парами
-    outputText()
+    outputText();
+    // recordTolocalStorage();
 })
 // Оголошую змінну яку зв'язую з id кнопки видалення
 let deleteButton = document.getElementById('deleteButton')
 // На кнопку Delete ставлю функція click, яка буде видаляти (перезаписувати пусте значення) пари в блоці для тексту,
-// а також в масиві
+// перезаписувати пустий масив, а також очищати localStorage
 deleteButton.addEventListener("click", function () {
     inputList.innerText = "";
     arrayNameValuePairs = [];
+    localStorage. clear();
 })
-
-
-
-
-
